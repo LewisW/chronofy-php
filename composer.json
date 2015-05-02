@@ -1,0 +1,30 @@
+{
+    "name": "vivait/chronofy-php",
+    "license": "MIT",
+    "description": "PHP client for chronofy",
+    "authors": [
+        {
+            "name": "Robin Cawser",
+            "email": "robin@vivait.co.uk"
+        },
+        {
+            "name": "Lewis Wright",
+            "email": "lewis@vivait.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.3.3",
+        "guzzlehttp/guzzle": "~5.0",
+        "symfony/options-resolver": "~2.2"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {
+            "Vivait\\Chronofy\\": "src/"
+        }
+    }
+}
